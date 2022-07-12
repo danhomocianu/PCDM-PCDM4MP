@@ -1,8 +1,8 @@
-version 1.0 /* authors: Daniel HOMOCIANU & Dinu AIRINEI, 05/27/2022 */
-*Ex1.: pcdm4mp C033
-*Ex2.: pcdm4mp C033, xcpu(4)
-*Ex3.: pcdm4mp wq727_, xcpu(8) disk("C")
+*! version 1.1  12July2022
+*Authors: Daniel HOMOCIANU & Dinu AIRINEI
+*Ex1.: pcdm4mp C033   *Ex2.: pcdm4mp C033, xcpu(4)   *Ex3.: pcdm4mp wq727_, xcpu(8) disk("C")
 program define pcdm4mp
+ version 16.0 
  syntax varlist [, xcpu(real 2) disk(string)]
  local datetime = "`c(current_date)' `c(current_time)'"
  di "PCDM4MP STARTED AT: `datetime'"

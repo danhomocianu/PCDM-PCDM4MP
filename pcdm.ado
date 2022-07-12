@@ -1,8 +1,8 @@
-version 1.0 /* authors: Daniel HOMOCIANU & Dinu AIRINEI, 05/22/2022 */
-*Ex1.: pcdm C033 *
-*Ex2.: pcdm C033 C031 C034 C036 C037 C038 C039 if S003==840
-*Ex3.: pcdm C033 * if S003==840, minacc(0.15) minn(1000) maxp(0.001)
+*! version 1.1  12July2022
+*Authors: Daniel HOMOCIANU & Dinu AIRINEI
+*Ex1.: pcdm C033 *   *Ex2.: pcdm C033 C031 C034 C036 C037 C038 C039 if S003==840   *Ex3.: pcdm C033 * if S003==840, minacc(0.15) minn(1000) maxp(0.001)
 program define pcdm
+version 16.0
 syntax varlist [if] [, minacc(real 0) minn(real 1) maxp(real 0.05)]
 local datetime = "`c(current_date)' `c(current_time)'"
 di "PCDM STARTED AT: `datetime'"
