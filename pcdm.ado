@@ -1,4 +1,4 @@
-*authors: Daniel HOMOCIANU & Dinu AIRINEI, 05/22/2022
+version 1.0 /* authors: Daniel HOMOCIANU & Dinu AIRINEI, 05/22/2022 */
 *Ex1.: pcdm C033 *
 *Ex2.: pcdm C033 C031 C034 C036 C037 C038 C039 if S003==840
 *Ex3.: pcdm C033 * if S003==840, minacc(0.15) minn(1000) maxp(0.001)

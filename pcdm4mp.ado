@@ -1,4 +1,4 @@
-*authors: Daniel HOMOCIANU & Dinu AIRINEI, 05/27/2022
+version 1.0 /* authors: Daniel HOMOCIANU & Dinu AIRINEI, 05/27/2022 */
 *Ex1.: pcdm4mp C033
 *Ex2.: pcdm4mp C033, xcpu(4)
 *Ex3.: pcdm4mp wq727_, xcpu(8) disk("C")
